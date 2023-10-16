@@ -6,23 +6,26 @@ body{
    
   }
 .navigationbar{
-    border: 1px solid red;
+   
     background-color: #D8D6D7;
     
 }
 .top_navbar{
     margin: 0px auto;
+    background-color: white;
     width: 960px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     display: flex;
 }
 .nav-bar{
-   margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 173px;
 }
 .navbar{
     
   padding-top: 14px;
-    padding-left: 110px;
+  padding-left: 123px;
 }
 .logo{
     margin-left: 24px;
@@ -40,7 +43,7 @@ li {
     list-style: none;
   }
 
-li:not(:last-child):after{
+ li:not(:last-child):after{
     content:"|";
     color:#E3E3E3;
   }
@@ -55,9 +58,22 @@ li a {
     padding-left: 168px;
 }
 .searchbtn{
-    margin-top: 6px;
+    margin-top: 3px;
+    margin-left: 10px;
 }
 .gobtn{
     margin-top: 6px;
     margin-left: 9px;
+}
+.nav-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav-bar li{
+    float: left;
+    border-right:1px solid #bbb;
+    padding-left: 5px;
+    padding-right: 5px;
 }
