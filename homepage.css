@@ -1,5 +1,6 @@
 body {
   background-image: url("assets/background.png");
+  margin: 0px;
 }
 .container {
   margin: 0px auto;
@@ -55,6 +56,7 @@ body {
   overflow: hidden;
 }
 .navbar li {
+  color: #727071;
   list-style: none;
 }
 .navbar ul li:not(:last-child):after {
@@ -64,7 +66,10 @@ body {
 .navbar li a {
   padding-left: 5px;
   padding-right: 5px;
-  color: #636363;
+  color: #727071;
+}
+.dining-li{
+  padding-left: 0px;
 }
 .searchbox {
   margin-top: 6px;
@@ -79,6 +84,8 @@ body {
   font-family: Calibri Light;
   font-size: 11px;
   margin-left: 75px;
+  padding-left: 5px;
+    padding-right: 65px;
   color: #959595;
 }
 .nav-bar ul {
@@ -94,35 +101,64 @@ body {
 }
 .nav-bar li a {
   display: block;
-  color: black;
+  color: #454344;
   text-align: center;
-  padding: 8px 16px;
+  padding-left: 9px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 9px;
+  padding-right: 24px;
+  /* padding: 8px 16px; */
   text-decoration: none;
 }
 .offers-navbar {
-  color: #78879A;
-  border-bottom: 1px solid #dfdfdf;
+  /* color: #78879A;
+  display: inline-flex;
+  border-bottom: 1px solid #dfdfdf; */
   background-color: white;
+  border-bottom: 1px solid #DFDFDF;
+}
+.offers-menu{
+  display: flex;
+  margin: 0px auto;
+  width: 960px; 
 }
 .offers {
-  margin: 0px auto;
-  width: 960px;
-  display: flex;
+  /* margin: 0px auto;
+  width: 960px; */
+   display: flex; 
+   margin-left: 21px;
   padding-top: 10px;
+  padding-bottom: 10px;
   font-family: Calibri Light;
   background-color: white;
 }
 .offers ul {
+  /* display: flex; */
   font-size: 14px;
   display: contents;
-  list-style: none;
+  list-style: circle;
 }
 .offers li {
   padding-right: 10px;
   padding-left: 0px;
 }
+.offers li a{
+  padding-right: 23px;
+}
+.bridal-registry{
+  display: flex;
+  font-family: Calibri Light;
+  list-style: none;
+}
+.bridal-registry li a{
+  font-size: 14px;
+}
+.bridalregistry-text{
+  padding-top: 10px;
+}
 .couple-image {
-  padding-left: 273px;
+  padding-left: 183px;
 }
 .containersection {
   background-color: #403f3d;
@@ -140,22 +176,23 @@ body {
 }
 h2 {
   font-family: Calibri Light;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   margin-bottom: 12px;
   padding-right: 30px;
-  padding-left: 30px;
+  padding-left: 20px;
   color: white;
 }
 .description {
   color: #9e9c9d;
-  padding-left: 30px;
+  padding-left: 18px;
   margin-top: 3px;
   padding-bottom: 15px;
 }
 .container-section p{
   margin-bottom: 0px;
   margin-top: 12px;
-  padding-left: 20px;
+  /* padding-left: 18px; */
+  /* padding-left: 20px; */
   font-family: Calibri Light;
 }
 .contents{    
@@ -169,7 +206,7 @@ h2 {
 }
 .table-link {
   color: #908e8f;
-  font-size: 14px;
+  font-size: 13px;
   padding-right: 7px;
 }
 .container-items {
@@ -260,7 +297,7 @@ color: #929290;
 }
 .footer li a{
   color:#929290;
-  padding-left: 5px;
+  padding-left: 2px;
   padding-right: 5px;
 }
 .footer ul li:not(:last-child):after {
@@ -290,6 +327,8 @@ color: #929290;
 }
 .signup_field input{
   font-size: 12px;
+  padding-right: 44px;
+  color: #666666;
   font-family: Calibri Light;
   font-weight: bold;
 }
@@ -298,4 +337,5 @@ color: #929290;
   font-size: 11px;
   font-family: Calibri Light;
   font-weight: bold;
+  border-radius: 5px;
 }
