@@ -65,6 +65,9 @@ body {
   margin-top: 6px;
   margin-left: 9px;
 }
+.nav-bar input{
+  color: #959595;
+}
 .nav-bar ul {
   
   list-style-type: none;
@@ -97,13 +100,13 @@ body {
   color: #78879A;;
   border-bottom: 1px solid #dfdfdf;
   background-color: white;
-  padding-top: 15px;
+  /* padding-top: 15px; */
 }
 .offers {
   margin: 0px auto;
   width: 960px;
   display: flex;
-  /* padding-top: 10px; */
+  padding-top: 10px;
   background-color: white;
 }
 .offers ul {
@@ -119,18 +122,24 @@ body {
   padding-left: 243px;
 }
 .containersection {
+  background-color: #403f3d;
   display: flex;
   border: 8px solid white;
 }
 .container-section {
+  margin: 7px;
+    border: 1px solid #585755;
   background-image: linear-gradient(#31302e, #403f3d);
   /* background-color: white; */
   color: black;
 }
+.containersection img{
+  border-right: 5px solid white;
+}
 h2 {
   margin-bottom: 0px;
-  padding-right: 41px;
-  padding-left: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
   color: white;
 }
 .description {
@@ -139,6 +148,7 @@ h2 {
   margin-top: 3px;
 }
 .container-section ul {
+  padding-left: 30px;
   list-style: none;
   color: #d6d4d5;
 }
@@ -217,6 +227,15 @@ h2 {
 .vL{
   border-right: 1px solid #E1E1E1;
   height: 186px;
+}
+.topnavbar_hr{
+  color:#DFDFDF;
+  margin-bottom: 1px;
+}
+.navbar_hr{
+  color:#DFDFDF;
+  margin-bottom: 0px;
+  margin-top: 2px;
 }
 hr{
   color:#555452
