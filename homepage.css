@@ -11,23 +11,20 @@ body {
   background-color: #d8d6d7;
   background-color: #d8d6d7;
 }
-.Divider1{
+.topDescription{
   background-color: white;
 }
-.top_navbar {
+.topNavbar {
   font-size: 10px;
   margin: 0px auto;
-  /* background-color: white; */
   width: 960px;
-  /* padding-bottom: 8px; */
   display: flex;
 }
 .nav-bar {
+  font-family: Calibri Light;
+  font-weight: bold;
   width:960px;
   margin: 0px auto;
-  /* padding-top: 10px;
-    padding-bottom: 10px; */
-  /* margin-left: 160px; */
 }
 .nav-bar button{
   margin-top: 5px;
@@ -40,55 +37,47 @@ body {
     border-radius: 3px;
 }
 .navbar {
+  font-family: Calibri Light;
   font-size: 12px;
-  padding-top: 29px;
+  padding-top: 22px;
   padding-left: 308px;
 }
-.second_navbar{
+.navbar_items{
   background-color: white;
   border-bottom: 1px solid #DFDFDF;
   border-top: 1px solid #DFDFDF;
-  
-}
-.logo {
-  /* margin-left: 16px; */
 }
 .navbar ul {
-
   display: inline-flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
-
 .navbar li {
   list-style: none;
 }
-
 .navbar ul li:not(:last-child):after {
   content: "|";
   color: #e3e3e3;
 }
-
 .navbar li a {
   padding-left: 5px;
   padding-right: 5px;
   color: #636363;
-}
-
-.dining-li a {
-  /* padding-left: 168px; */
 }
 .searchbox {
   margin-top: 6px;
   margin-left: 10px;
 }
 .gobtn {
+  font-family: Calibri Light;
   margin-top: 6px;
   margin-left: 9px;
 }
 .nav-bar input{
+  font-family: Calibri Light;
+  font-size: 11px;
   margin-left: 75px;
   color: #959595;
 }
@@ -99,19 +88,9 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-
-  /* list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden; */
 }
 .nav-bar li {
- 
   border-right: 1px solid #e6e4e5;
-  /* float: left;
-    border-right:1px solid #bbb;
-    padding-left: 5px;
-    padding-right: 5px; */
 }
 .nav-bar li a {
   display: block;
@@ -121,16 +100,16 @@ body {
   text-decoration: none;
 }
 .offers-navbar {
-  color: #78879A;;
+  color: #78879A;
   border-bottom: 1px solid #dfdfdf;
   background-color: white;
-  /* padding-top: 15px; */
 }
 .offers {
   margin: 0px auto;
   width: 960px;
   display: flex;
   padding-top: 10px;
+  font-family: Calibri Light;
   background-color: white;
 }
 .offers ul {
@@ -154,14 +133,15 @@ body {
   margin: 7px;
     border: 1px solid #585755;
   background-image: linear-gradient(#31302e, #403f3d);
-  /* background-color: white; */
   color: white;
 }
 .containersection img{
   border-right: 5px solid white;
 }
 h2 {
-  margin-bottom: 0px;
+  font-family: Calibri Light;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
   padding-right: 30px;
   padding-left: 30px;
   color: white;
@@ -174,9 +154,9 @@ h2 {
 }
 .container-section p{
   margin-bottom: 0px;
-  /* margin: 0px; */
-  /* padding-bottom: 10px; */
+  margin-top: 12px;
   padding-left: 20px;
+  font-family: Calibri Light;
 }
 .contents{    
   margin-right: 15px;
@@ -184,21 +164,15 @@ h2 {
   margin-left: 20px;
   border-bottom: 1px solid #545351;
 }
-.container-section ul {
-  padding-left: 30px;
-  list-style: none;
-  color: #d6d4d5;
-}
-.container-section li {
-  padding-top: 3px;
-  padding-bottom: 10px;
+.content-item{
+  margin-left: 20px;
 }
 .table-link {
   color: #908e8f;
   font-size: 14px;
   padding-right: 7px;
 }
-.container-secondpart {
+.container-items {
   display: inline-flex;
   border: 7px solid black;
 }
@@ -207,15 +181,18 @@ h2 {
   padding-top: 20px;
   padding-left: 136px;
 }
-.top-left {
+.album-text{
+  letter-spacing: 0.5px;
+    font-weight: bold;
+  font-family: Calibri Light;
   position: absolute;
   color: black;
-  /* top: -51px; */
   left: 16px;
   top: 10px;
   color: #424242;
 }
 .glass-text{
+  font-family: Calibri Light;
   position: absolute;
   font-size: 11px;
   left: 16px;
@@ -228,8 +205,10 @@ h2 {
   background-color: white;
 }
 .glass-description{
+  font-weight: bold;
+  font-family: Calibri Light;
   position: absolute;
-  color: black;
+  color: #666C7A;
   font-size: 14px;
   left: 159px;
   top: 64px;
@@ -247,6 +226,7 @@ h2 {
   background-color: white;
 }
 .frames-text{
+  font-family: Calibri Light;
   position: absolute;
   font-size: 11px;
   left: 16px;
@@ -254,6 +234,8 @@ h2 {
   color: #8D8D8D;
 }
 .frames-title{
+  font-family: Calibri Light;
+  font-weight: bold;
   position: absolute;
   color: black;
   font-size: 14px;
@@ -261,21 +243,9 @@ h2 {
   top: 111px;
   color: #686C85;
 }
-.vL{
+.verticalLine{
   border-right: 1px solid #E1E1E1;
   height: 186px;
-}
-.topnavbar_hr{
-  color:#DFDFDF;
-  margin-bottom: 1px;
-}
-.navbar_hr{
-  color:#DFDFDF;
-  margin-bottom: 0px;
-  margin-top: 2px;
-}
-hr{
-  color:#555452
 }
 .footer ul{
   margin-bottom: 0px;
@@ -297,41 +267,12 @@ color: #929290;
   content: "|";
   color: #929290;
 }
-.footer-content{
-  display: flex;
-  color: #929290;
-}
-.footer-text{
-  margin-left: 404px;
-  font-size: 12px;
-}
-.footer-1{
-  font-size: 12px;
-  color: #929290;
-  display: inline-flex;
-}
-.footer-1 p{
-  margin: 0px;
-  padding-right: 249px;
-}
-.footer-1 input{
-  font-size: 12px;
-  margin-right: 10px;
-}
-.footer-1 button{
-  font-size: 12px;
-  border-radius: 6px;
-}
-.footer-2 p{
-  font-size: 12px;
-  margin: 0px;
-  color: #929290;
-}
 .about-mikasa{
   padding-left: 0px;
 }
 .footer-section{
   display: inline-flex;
+  font-family: Calibri Light;
 }
 .footer_support p{
   padding-top: 3px;
@@ -342,15 +283,19 @@ color: #929290;
 .signup_field{
   display: flex;
 }
-.section-2{
+.promotions_field{
   color:#929290;
   margin-left: 253px;
   font-size: 12px;
 }
 .signup_field input{
   font-size: 12px;
+  font-family: Calibri Light;
+  font-weight: bold;
 }
 .signup_field button{
   margin-left: 5px;
-    font-size: 11px;
+  font-size: 11px;
+  font-family: Calibri Light;
+  font-weight: bold;
 }
