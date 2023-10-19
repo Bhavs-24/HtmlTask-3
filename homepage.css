@@ -29,13 +29,13 @@ body {
 }
 .nav-bar button{
   margin-top: 5px;
-    margin-bottom: 5px;
-    padding-bottom: 0px;
-    padding-right: 2px;
-    padding-left: 2px;
-    padding-top: 0px;
-    border-color: #B0B0B0;
-    border-radius: 3px;
+  margin-bottom: 5px;
+  padding-bottom: 0px;
+  padding-right: 4px;
+  padding-left: 4px;
+  padding-top: 0px;
+  border-color: #B0B0B0;
+  border-radius: 8px;
 }
 .navbar {
   font-family: Calibri Light;
@@ -108,13 +108,9 @@ body {
   padding-bottom: 8px;
   padding-left: 9px;
   padding-right: 24px;
-  /* padding: 8px 16px; */
   text-decoration: none;
 }
 .offers-navbar {
-  /* color: #78879A;
-  display: inline-flex;
-  border-bottom: 1px solid #dfdfdf; */
   background-color: white;
   border-bottom: 1px solid #DFDFDF;
 }
@@ -124,8 +120,6 @@ body {
   width: 960px; 
 }
 .offers {
-  /* margin: 0px auto;
-  width: 960px; */
    display: flex; 
    margin-left: 21px;
   padding-top: 10px;
@@ -134,7 +128,6 @@ body {
   background-color: white;
 }
 .offers ul {
-  /* display: flex; */
   font-size: 14px;
   display: contents;
   list-style: circle;
@@ -191,8 +184,6 @@ h2 {
 .container-section p{
   margin-bottom: 0px;
   margin-top: 12px;
-  /* padding-left: 18px; */
-  /* padding-left: 20px; */
   font-family: Calibri Light;
 }
 .contents{    
@@ -237,6 +228,9 @@ h2 {
   color: #8D8D8D;
 }
 .containerglass {
+  /* padding-top: 10px; */
+    /* line-height: 10px; */
+    /* border-right: 1px solid #E1E1E1; */
   position: relative;
   padding-right: 34px;
   background-color: white;
@@ -253,6 +247,9 @@ h2 {
 }
 .containerplates{
   position: relative;
+  /* padding-top: 10px; */
+    /* line-height: 10px; */
+    /* border-right: 1px solid #E1E1E1; */
   background-color: white;
 }
 .platesimage{
@@ -281,6 +278,7 @@ h2 {
   color: #686C85;
 }
 .verticalLine{
+  background-color: white;
   border-right: 1px solid #E1E1E1;
   height: 186px;
 }
