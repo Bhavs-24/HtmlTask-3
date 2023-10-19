@@ -12,7 +12,7 @@ body {
   background-color: #d8d6d7;
   background-color: #d8d6d7;
 }
-.topDescription{
+.topDescription {
   background-color: white;
 }
 .topNavbar {
@@ -24,17 +24,17 @@ body {
 .nav-bar {
   font-family: Calibri Light;
   font-weight: bold;
-  width:960px;
+  width: 960px;
   margin: 0px auto;
 }
-.nav-bar button{
+.nav-bar button {
   margin-top: 5px;
   margin-bottom: 5px;
   padding-bottom: 0px;
   padding-right: 4px;
   padding-left: 4px;
   padding-top: 0px;
-  border-color: #B0B0B0;
+  border-color: #b0b0b0;
   border-radius: 8px;
 }
 .navbar {
@@ -43,13 +43,15 @@ body {
   padding-top: 22px;
   padding-left: 308px;
 }
-.navbar_items{
+.navbar_items {
   background-color: white;
-  border-bottom: 1px solid #DFDFDF;
-  border-top: 1px solid #DFDFDF;
+  border-bottom: 1px solid #dfdfdf;
+  border-top: 1px solid #dfdfdf;
 }
 .navbar ul {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -68,9 +70,6 @@ body {
   padding-right: 5px;
   color: #727071;
 }
-.dining-li{
-  padding-left: 0px;
-}
 .searchbox {
   margin-top: 6px;
   margin-left: 10px;
@@ -80,12 +79,13 @@ body {
   margin-top: 6px;
   margin-left: 9px;
 }
-.nav-bar input{
+.nav-bar input {
+  border-image: linear-gradient(#878586,#F4F4F4)80;
   font-family: Calibri Light;
   font-size: 11px;
   margin-left: 75px;
   padding-left: 5px;
-    padding-right: 65px;
+  padding-right: 65px;
   color: #959595;
 }
 .nav-bar ul {
@@ -112,16 +112,16 @@ body {
 }
 .offers-navbar {
   background-color: white;
-  border-bottom: 1px solid #DFDFDF;
+  border-bottom: 1px solid #dfdfdf;
 }
-.offers-menu{
+.offers-menu {
   display: flex;
   margin: 0px auto;
-  width: 960px; 
+  width: 960px;
 }
 .offers {
-   display: flex; 
-   margin-left: 21px;
+  display: flex;
+  margin-left: 6px;
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: Calibri Light;
@@ -130,24 +130,27 @@ body {
 .offers ul {
   font-size: 14px;
   display: contents;
-  list-style: circle;
+  list-style-type: circle;
 }
 .offers li {
   padding-right: 10px;
   padding-left: 0px;
 }
-.offers li a{
+.offers li a {
   padding-right: 23px;
 }
-.bridal-registry{
+.offers ul li:first-child {
+  list-style-type: none;  
+}
+.bridal-registry {
   display: flex;
   font-family: Calibri Light;
   list-style: none;
 }
-.bridal-registry li a{
+.bridal-registry li a {
   font-size: 14px;
 }
-.bridalregistry-text{
+.bridalregistry-text {
   padding-top: 10px;
 }
 .couple-image {
@@ -160,11 +163,11 @@ body {
 }
 .container-section {
   margin: 7px;
-    border: 1px solid #585755;
+  border: 1px solid #585755;
   background-image: linear-gradient(#31302e, #403f3d);
   color: white;
 }
-.containersection img{
+.containersection img {
   border-right: 5px solid white;
 }
 h2 {
@@ -181,18 +184,18 @@ h2 {
   margin-top: 3px;
   padding-bottom: 15px;
 }
-.container-section p{
+.container-section p {
   margin-bottom: 0px;
   margin-top: 12px;
   font-family: Calibri Light;
 }
-.contents{    
+.contents {
   margin-right: 15px;
   padding-bottom: 3px;
   margin-left: 20px;
   border-bottom: 1px solid #545351;
 }
-.content-item{
+.content-item {
   margin-left: 20px;
 }
 .table-link {
@@ -201,100 +204,23 @@ h2 {
   padding-right: 7px;
 }
 .container-items {
+  background-color: white;
   display: inline-flex;
   border: 7px solid black;
 }
-.image-album {
-  background-color: white;
-  padding-top: 20px;
-  padding-left: 136px;
-}
-.album-text{
-  letter-spacing: 0.5px;
-    font-weight: bold;
-  font-family: Calibri Light;
-  position: absolute;
-  color: black;
-  left: 16px;
-  top: 10px;
-  color: #424242;
-}
-.glass-text{
-  font-family: Calibri Light;
-  position: absolute;
-  font-size: 11px;
-  left: 16px;
-  top: 32px;
-  color: #8D8D8D;
-}
-.containerglass {
-  /* padding-top: 10px; */
-    /* line-height: 10px; */
-    /* border-right: 1px solid #E1E1E1; */
-  position: relative;
-  padding-right: 34px;
-  background-color: white;
-}
-.glass-description{
-  font-weight: bold;
-  font-family: Calibri Light;
-  position: absolute;
-  color: #666C7A;
-  font-size: 14px;
-  left: 159px;
-  top: 64px;
-  color: #686C85;
-}
-.containerplates{
-  position: relative;
-  /* padding-top: 10px; */
-    /* line-height: 10px; */
-    /* border-right: 1px solid #E1E1E1; */
-  background-color: white;
-}
-.platesimage{
-  padding-top: 48px;
-}
-.containerframes{
-  position: relative;
-  background-color: white;
-}
-.frames-text{
-  font-family: Calibri Light;
-  position: absolute;
-  font-size: 11px;
-  left: 16px;
-  top: 55px;
-  color: #8D8D8D;
-}
-.frames-title{
-  font-family: Calibri Light;
-  font-weight: bold;
-  position: absolute;
-  color: black;
-  font-size: 14px;
-  left: 16px;
-  top: 111px;
-  color: #686C85;
-}
-.verticalLine{
-  background-color: white;
-  border-right: 1px solid #E1E1E1;
-  height: 186px;
-}
-.footer ul{
+.footer ul {
   margin-bottom: 0px;
   font-size: 12px;
   padding-left: 0px;
   display: inline-flex;
   list-style: none;
-  color: #908E8F;
+  color: #908e8f;
 }
-.footer li{
-color: #929290;
+.footer li {
+  color: #929290;
 }
-.footer li a{
-  color:#929290;
+.footer li a {
+  color: #929290;
   padding-left: 2px;
   padding-right: 5px;
 }
@@ -302,38 +228,113 @@ color: #929290;
   content: "|";
   color: #929290;
 }
-.about-mikasa{
+.about-mikasa {
   padding-left: 0px;
 }
-.footer-section{
+.footer-section {
   display: inline-flex;
   font-family: Calibri Light;
 }
-.footer_support p{
+.footer_support p {
   padding-top: 3px;
   margin: 0px;
   font-size: 12px;
-  color:#929290;
+  color: #929290;
 }
-.signup_field{
+.signup_field {
   display: flex;
 }
-.promotions_field{
-  color:#929290;
-  margin-left: 253px;
+.promotions_field {
+  color: #929290;
+  margin-left: 272px;
   font-size: 12px;
 }
-.signup_field input{
+.signup_field input {
   font-size: 12px;
   padding-right: 44px;
+  border-image: linear-gradient(#878586,#FFFFFF)83;
   color: #666666;
   font-family: Calibri Light;
   font-weight: bold;
 }
-.signup_field button{
+.signup_field button {
   margin-left: 5px;
   font-size: 11px;
   font-family: Calibri Light;
   font-weight: bold;
   border-radius: 5px;
+}
+.container-images {
+  background-color: white;
+  display: flex;
+  border: 7px solid black;
+}
+.glass-section{
+  padding-bottom: 56px;
+  padding-top: 0px;
+  border-right: 1px solid #E1E1E1;
+}
+.image-glass {
+  background-image: url("assets/promo_glass.png");
+  height: 172px;
+  background-repeat: no-repeat;
+  width: 320px;
+  margin-top: 12px;
+  background-position: left bottom;
+}
+.image-plates {
+  background-image: url("assets/promo_plates.png");
+  height: 172px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  width: 320px;
+  margin-top: 12px;
+}
+.image-frames {
+  background-image: url("assets/promo_album.png");
+  height: 185px;
+  width: 296px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+h4 {
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  font-family: Calibri Light;
+  margin-top: 8px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+.mikasa-title {
+  margin-top: 20px;
+  padding-left: 10px;
+}
+.glass-text {
+  margin-top: 5px;
+  padding-left: 10px;
+  font-family: Calibri Light;
+  font-size: 11px;
+  color: #8d8d8d;
+}
+.glass-description {
+  font-weight: bold;
+  font-family: Calibri Light;
+  color: #666c7a;
+  font-size: 14px;
+  padding-top: 5px;
+  margin-left: 168px;
+}
+.frames-text {
+  font-family: Calibri Light;
+  padding-left: 10px;
+  font-size: 11px;
+  color: #8d8d8d;
+}
+.frames-title {
+  font-family: Calibri Light;
+  font-weight: bold;
+  padding-left: 10px;
+  color: black;
+  font-size: 14px;
+  color: #686c85;
 }
