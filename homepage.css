@@ -47,7 +47,7 @@ color: #454760;
   font-family: Calibri Light;
   font-size: 12px;
   padding-top: 22px;
-  padding-left: 285px;
+  padding-left: 291px;
 }
 .navbar_items {
   background-color: white;
@@ -93,7 +93,6 @@ color: #454760;
   padding-left: 5px;
   padding-right: 65px;
   color: #959595;
-  box-shadow: 0px 0px 2px black;
 }
 .nav-bar ul {
   display: inline-flex;
@@ -110,10 +109,9 @@ color: #454760;
   display: block;
   color: #454344;
   text-align: center;
-  padding-left: 9px;
+  padding-left: 7px;
   padding-top: 8px;
   padding-bottom: 8px;
-  padding-left: 9px;
   padding-right: 24px;
   text-decoration: none;
 }
@@ -140,6 +138,7 @@ color: #454760;
   list-style-type: circle;
 }
 .offers li {
+  color: #3E4879;
   padding-right: 10px;
   padding-left: 0px;
 }
@@ -159,9 +158,10 @@ color: #454760;
 }
 .bridalregistry-text {
   padding-top: 10px;
+  color: #3E4879;
 }
 .couple-image {
-  padding-left: 183px;
+  padding-left: 195px;
 }
 .containersection {
   background-color: #403f3d;
@@ -257,7 +257,7 @@ h2 {
   font-size: 12px;
 }
 .signup_field input {
-  font-size: 12px;
+  font-size: 11px;
   padding-right: 44px;
   border-image: linear-gradient(#878586,#FFFFFF)83;
   color: #666666;
@@ -279,30 +279,34 @@ h2 {
   border: 7px solid black;
 }
 .glass-section{
-  padding-bottom: 56px;
+  /* padding-bottom: 56px; */
   padding-top: 0px;
+  margin-bottom: 15px;
+    margin-top: 17px;
+    width: 100%;
   border-right: 1px solid #E1E1E1;
 }
 .image-glass {
   background-image: url("assets/promo_glass.png");
   height: 172px;
+  padding: 5px;
   background-repeat: no-repeat;
-  width: 320px;
-  margin-top: 12px;
+  width: 309px;
   background-position: left bottom;
 }
 .image-plates {
   background-image: url("assets/promo_plates.png");
   height: 172px;
+  padding: 5px;
   background-repeat: no-repeat;
   background-position: center bottom;
-  width: 320px;
-  margin-top: 12px;
+  width: 312px;
 }
 .image-frames {
   background-image: url("assets/promo_album.png");
-  height: 185px;
-  width: 296px;
+  height: 172px;
+  width: 318px;
+  padding: 5px;
   background-position: right bottom;
   background-repeat: no-repeat;
 }
@@ -310,8 +314,7 @@ h4 {
   letter-spacing: 0.5px;
   font-weight: bold;
   font-family: Calibri Light;
-  margin-top: 8px;
-  padding-left: 10px;
+  padding: 0px 22px 3px 8px;
   margin-bottom: 0px;
 }
 .mikasa-title {
@@ -319,10 +322,10 @@ h4 {
   padding-left: 10px;
 }
 .glass-text {
-  margin-top: 5px;
-  padding-left: 10px;
+  padding: 9px 0px 10px 10px;
   font-family: Calibri Light;
   font-size: 11px;
+  margin: 0px;
   color: #8d8d8d;
 }
 .glass-description {
@@ -330,8 +333,8 @@ h4 {
   font-family: Calibri Light;
   color: #454760;
   font-size: 14px;
-  padding-top: 5px;
-  margin-left: 168px;
+  text-align: right;
+  padding: 1px 5px 52px 2px;
 }
 .frames-text {
   font-family: Calibri Light;
