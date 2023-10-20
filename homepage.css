@@ -1,5 +1,7 @@
 body {
   background-image: url("assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0px;
 }
 .container {
@@ -14,6 +16,9 @@ body {
 }
 .topDescription {
   background-color: white;
+}
+.checkout{
+color: #454760;
 }
 .topNavbar {
   font-size: 10px;
@@ -36,12 +41,13 @@ body {
   padding-top: 0px;
   border-color: #b0b0b0;
   border-radius: 8px;
+  border-width: thin;
 }
 .navbar {
   font-family: Calibri Light;
   font-size: 12px;
   padding-top: 22px;
-  padding-left: 308px;
+  padding-left: 285px;
 }
 .navbar_items {
   background-color: white;
@@ -87,6 +93,7 @@ body {
   padding-left: 5px;
   padding-right: 65px;
   color: #959595;
+  box-shadow: 0px 0px 2px black;
 }
 .nav-bar ul {
   display: inline-flex;
@@ -256,6 +263,8 @@ h2 {
   color: #666666;
   font-family: Calibri Light;
   font-weight: bold;
+  border-top: 12px;
+  border-bottom: 0px;
 }
 .signup_field button {
   margin-left: 5px;
@@ -319,7 +328,7 @@ h4 {
 .glass-description {
   font-weight: bold;
   font-family: Calibri Light;
-  color: #666c7a;
+  color: #454760;
   font-size: 14px;
   padding-top: 5px;
   margin-left: 168px;
@@ -336,5 +345,5 @@ h4 {
   padding-left: 10px;
   color: black;
   font-size: 14px;
-  color: #686c85;
+  color: #454760;
 }
